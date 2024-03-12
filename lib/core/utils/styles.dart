@@ -11,7 +11,6 @@ abstract class Styles {
   static const teztstyle20 = TextStyle(
     fontSize: 20,
     fontWeight: FontWeight.normal,
-    fontFamily: kGtSectraFine,
   );
 
   static const teztstyle18 = TextStyle(
