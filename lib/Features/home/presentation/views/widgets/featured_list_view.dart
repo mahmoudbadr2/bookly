@@ -1,5 +1,4 @@
 import 'package:bookly/Features/home/presentation/views/widgets/featured_list_view_item.dart';
-import 'package:bookly/core/utils/assets.dart';
 import 'package:flutter/material.dart';
 
 class FeatureBoxListView extends StatelessWidget {
