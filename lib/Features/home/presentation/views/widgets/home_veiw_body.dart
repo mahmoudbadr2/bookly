@@ -23,6 +23,9 @@ class HomeViewBody extends StatelessWidget {
             'Best Seller',
             style: Styles.teztstyle18,
           ),
+          SizedBox(
+            height: 20,
+          ),
           BesrSellerListViewItems(),
         ],
       ),
@@ -55,8 +58,24 @@ class BesrSellerListViewItems extends StatelessWidget {
               ),
             ),
           ),
+          const SizedBox(
+            width: 30,
+          ),
           Column(
-            children: [],
+            children: [
+              SizedBox(
+                width: MediaQuery.of(context).size.width * .5,
+                child: const Text(
+                  'Harry Potter and the Goblet of Fire',
+                  overflow: TextOverflow.ellipsis,
+                  maxLines: 2,
+                  style: Styles.teztstyle20,
+                ),
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+            ],
           ),
         ],
       ),
