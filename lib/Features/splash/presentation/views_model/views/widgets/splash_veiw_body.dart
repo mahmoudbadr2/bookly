@@ -27,7 +27,6 @@ class _SplashViewBodyState extends State<SplashViewBody>
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
   }
 
